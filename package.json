@@ -1,0 +1,39 @@
+{
+  "name": "editorjs-embed-pornhub",
+  "version": "1.0.1",
+  "description": "EditorJS plugin extension for embedding videos from Pornhub",
+  "main": "dist/index.js",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IvanAdmaers/editorjs-embed-pornhub"
+  },
+  "scripts": {
+    "test": "jest",
+    "dev": "webpack --watch",
+    "build": "webpack",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "editorjs",
+    "editorjs embed",
+    "pornhub",
+    "pornhub embed",
+    "editorjs pornhub",
+    "editorjs embed pornhub"
+  ],
+  "author": "Ivan Admaers (https://ivanadmaers.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@types/jest": "^29.5.1",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.2"
+  }
+}
